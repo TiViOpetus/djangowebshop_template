@@ -128,10 +128,3 @@ def purchase_succeeded(request):
     context = { 'return_code': return_code }
 
     return render(request, 'shop/success.html', context)
-
-#"GET /purchase_succeeded
-# ?
-# AUTHCODE=F011D5D5B869DB0EFC519A07308D554471E654E1BE608890C539DE2058FADD1A
-# RETURN_CODE=0
-# ORDER_NUMBER=visma_testorder_3829426
-# SETTLED=1 
